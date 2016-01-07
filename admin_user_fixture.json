@@ -1,0 +1,19 @@
+[{
+  "pk": 1, 
+  "model": "auth.user", 
+  "fields": {
+    "username": "admin", 
+    "first_name": "", 
+    "last_name": "", 
+    "is_active": true, 
+    "is_superuser": true, 
+    "is_staff": true, 
+    "last_login": "2015-12-14T11:27:12.421Z", 
+    "groups": [], 
+    "user_permissions": [], 
+    "password": "pbkdf2_sha256$12000$RgEydvDmZLE3$akhJ42Ydw0pdkmehv53f/i/XY8O7uoG2gFg9Q/omsxs=", 
+    "email": "dkobo@kimetrica.com", 
+    "date_joined": "2015-12-14T11:27:12.421Z"
+  }
+}
+]
