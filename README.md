@@ -1,0 +1,1 @@
+This repository holds files for Docker images of dkobo. Image for production is built from `prod` branch, image for development from `dev` branch.
