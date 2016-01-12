@@ -11,7 +11,7 @@ ADD https://github.com/kimetrica/dkobo/archive/2.015.46.zip /dkobo.zip
 RUN unzip dkobo.zip && mv dkobo-2.015.46 dkobo
 
 WORKDIR /dkobo
-RUN pip install -r requirements.txt
+RUN pip install -r requirements.txt && pip install -U gunicorn
 
 # bower doesn't like to be run as root. There is an option to override,
 # but it's better to just use an unprivileged user.
