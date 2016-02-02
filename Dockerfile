@@ -43,6 +43,7 @@ ENV KOBOCAT_URL http://localhost:9000
 ENV KOBOCAT_INTERNAL_URL http://localhost:9000
 # we need to use localhost here and not enketo hostname because the browser is redirected
 ENV ENKETO_SERVER http://localhost:8005
+ENV DJANGO_LIVE_RELOAD False
 
 # this is to preserve sqlite db. Using directory to make sure there is no problem due to inode change etc.
 VOLUME /dkobo
